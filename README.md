@@ -1,2 +1,2 @@
 # alx-low_level_programming
-Learning C :)
+This repository contains scripts for learning C
