@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-/**
- *  whatever
- */
-int main(void)
+int main(void) /*whatevr*/
 {
 char String_[] = "\"Programming is like building a multilingual puzzle";
 puts(String_);
