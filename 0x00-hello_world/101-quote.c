@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
 *main - Entry point
 *Description: writes required string not using puts or printf
