@@ -4,3 +4,4 @@
 3-print_alphabets.c prints the alphabet in lowercase, and then in uppercase, followed by a new line
 4-print_alphabt.c  prints the alphabet in lowercase, followed by a new line
 5-print_numbers.c prints numbers
+6-print_numberz.c prints numbers
