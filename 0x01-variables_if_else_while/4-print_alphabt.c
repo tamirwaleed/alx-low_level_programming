@@ -10,7 +10,7 @@ int main(void)
 int c;
 for (c = 'a'; c <= 'z'; c++)
 {
-if (c != 'q' || 'e')
+if (c != 'e' && c != 'q')
 putchar(c);
 else
 {
