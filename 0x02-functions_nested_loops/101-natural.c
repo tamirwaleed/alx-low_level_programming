@@ -3,7 +3,7 @@
 * main - Entry Point
 * Description: finds multiples of 3 and 5
 * using stdio.h
-* Return: Always success 0 
+* Return: Always success 0
 */
 int main(void)
 {
