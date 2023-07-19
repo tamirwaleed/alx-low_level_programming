@@ -9,3 +9,4 @@
 8-24_hours.c prints all minutes
 9-times_table.c prints the 9 tables
 
+10-add.c adds two integers
