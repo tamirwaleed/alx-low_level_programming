@@ -11,3 +11,4 @@
 
 10-add.c adds two integers
 11-print_to_98.c prints to 98
+100-times_table.c prints the n times table
