@@ -1,9 +1,6 @@
 #include "main.h"
 /**
-* main - Entry point
-* Description: prints alphabet
-* Using defined headers
-* Return: Always success 0
+* print_alphabet - Prints the alphabet
 */
 void print_alphabet(void)
 {
