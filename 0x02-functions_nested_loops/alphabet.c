@@ -5,11 +5,8 @@
 * Using defined headers
 * Return: Always success 0
 */
-void print_alphabet(void)
+int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z' ; c++)
-_putchar(c);
-_putchar('\n');
-return;
+print_alphabet();
+return (0);
 }
