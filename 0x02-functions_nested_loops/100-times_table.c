@@ -17,12 +17,11 @@ i = a * b;
 if (b != n)
 {
 if (i >= 100)
-printf("%d%d%d", (i / 100), ((i / 10) % 10), (i % 10));
+printf("%d%d%d,", (i / 100), ((i / 10) % 10), (i % 10));
 else if (i >= 10 && i < 100)
-printf("%d%d", (i / 10), (i % 10));
+printf("%d%d,", (i / 10), (i % 10));
 else
-printf("%d\n", i);
-_putchar(',');
+printf("%d,", i);
 if ((a * (b + 1)) < 10)
 printf("   ");
 else if ((a * (b + 1)) >= 10 && (a * (b + 1)) < 100)
@@ -33,9 +32,9 @@ printf(" ");
 else
 {
 if (i >= 100)
-printf("%d%d%d", (i / 100), ((i / 10) % 10), (i % 10));
+printf("%d%d%d\n", (i / 100), ((i / 10) % 10), (i % 10));
 else if (i >= 10 && i < 100)
-printf("%d%d", (i / 10), (i % 10));
+printf("%d%d\n", (i / 10), (i % 10));
 else
 printf("%d\n", i);
 }
