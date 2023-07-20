@@ -8,7 +8,6 @@
 7-print_last_digit.c prints the last digit
 8-24_hours.c prints all minutes
 9-times_table.c prints the 9 tables
-
 10-add.c adds two integers
 11-print_to_98.c prints to 98
 100-times_table.c prints the n times table
