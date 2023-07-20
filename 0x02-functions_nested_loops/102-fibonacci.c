@@ -10,7 +10,6 @@ int main(void)
 unsigned long i, a, b, c;
 a = 0;
 b = 1;
-printf("%lu, %lu, ", a, b);
 for (i = 1; i <= 50; i++)
 {
 c = a + b;
