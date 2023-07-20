@@ -13,3 +13,4 @@
 11-print_to_98.c prints to 98
 100-times_table.c prints the n times table
 101-natural.c list multiples
+102-fibonacci.c prints fibonacci numbers
