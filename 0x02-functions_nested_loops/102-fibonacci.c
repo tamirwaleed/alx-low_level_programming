@@ -3,7 +3,7 @@
 * main - Entry Point
 * Description: finds 50 fibonacci
 * using stdio.h
-* Return: Always success 0 
+* Return: Always success 0
 */
 int main(void)
 {
@@ -11,7 +11,7 @@ unsigned long i, a, b, c;
 a = 0;
 b = 1;
 printf("%lu, %lu, ", a, b);
-for (i = 3; i <= 50; i++)
+for (i = i; i <= 50; i++)
 {
 c = a + b;
 if (i != 50)
