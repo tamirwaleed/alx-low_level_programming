@@ -11,7 +11,7 @@ unsigned long i, a, b, c;
 a = 0;
 b = 1;
 printf("%lu, %lu, ", a, b);
-for (i = i; i <= 50; i++)
+for (i = 1; i <= 50; i++)
 {
 c = a + b;
 if (i != 50)
