@@ -22,7 +22,7 @@ else
 y = j  % 10;
 _putchar(y + '0');
 }
-} 
+}
 }
 _putchar('\n');
 }
