@@ -3,7 +3,7 @@
  * main - entry point
  * Description: FizzBuzz
  * using standard library
- * Returns: Always success 0
+ * Return: Always success 0
  */
 int main(void)
 {
