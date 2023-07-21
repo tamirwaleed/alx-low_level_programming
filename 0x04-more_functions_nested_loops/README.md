@@ -2,3 +2,4 @@
 1-isdigit.c checks for digits between 1 and 9
 2-mul.c multiples two integers
 3-print_numbers.c printd the numbers from 0 to 9
+4-print_most_numbers.c prints numbers except 2 and 4
