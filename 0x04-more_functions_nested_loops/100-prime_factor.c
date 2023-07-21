@@ -7,24 +7,13 @@
 */
 int main(void)
 {
-long int large, i, j, prime;
-for (i = 2; i <= 612852475143 / 2; i++)
+long i;
+long num = 612852475143;
+for (i = 2; i < num; i++)
 {
-if (612852475143 % i == 0)
-{
-prime = 1;
-for (j = 2; j <= i / 2; j++)
-{
-if (i % j == 0)
-{
-prime = 0;
-break;
+if (num % i == 0)
+num /= i;
 }
-}
-if (prime == 1)
-large = i;
-}
-}
-printf("%lu\n", large);
+printf("%li\n", num);
 return (0);
 }
