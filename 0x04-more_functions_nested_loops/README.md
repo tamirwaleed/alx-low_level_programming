@@ -6,3 +6,4 @@
 5-more_numbers.c prints 10 times from 0 to 14
 6-print_line.c draws a straight line
 7-print_diagonal.c prints diagonals
+8-print_square.c prints square
