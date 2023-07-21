@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int i, a, b; 
+int i, a, b;
 for (i = 1; i <= 100; i++)
 {
 a = i % 3;
