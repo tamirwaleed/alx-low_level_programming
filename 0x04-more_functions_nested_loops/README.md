@@ -8,3 +8,4 @@
 7-print_diagonal.c prints diagonals
 8-print_square.c prints square
 9-fizz_buzz.c is the fizzbuzz test
+10-print_triangle.c prints triangles
