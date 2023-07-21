@@ -23,7 +23,7 @@ printf("Buzz ");
 else
 printf("FizzBuzz ");
 }
-else 
+else
 printf("Buzz\n");
 }
 return (0);
