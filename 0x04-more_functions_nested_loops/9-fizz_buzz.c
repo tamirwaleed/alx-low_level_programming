@@ -10,6 +10,8 @@ int main(void)
 int i, a, b;
 for (i = 1; i <= 100; i++)
 {
+if (i != 100)
+{
 a = i % 3;
 b = i % 5;
 if (a != 0 && b != 0)
@@ -21,6 +23,8 @@ printf("Buzz ");
 else
 printf("FizzBuzz ");
 }
-printf("\n");
+else 
+printf("Buzz\n");
+}
 return (0);
 }
