@@ -10,3 +10,4 @@
 9-fizz_buzz.c is the fizzbuzz test
 10-print_triangle.c prints triangles
 100-prime_factor.c finds prime factors
+101-print_number.c prints an integer
