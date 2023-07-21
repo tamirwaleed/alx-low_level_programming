@@ -16,7 +16,7 @@ _putchar(' ');
 for (k = 1; k <= i; k++)
 _putchar('#');
 _putchar('\n');
-} 
+}
 }
 else
 _putchar('\n');
