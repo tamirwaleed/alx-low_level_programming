@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * swap_int - swaps
- * @a: 1st integer 
+ * @a: 1st integer
  * @b: 2nd integer
  * Return: void
  */
