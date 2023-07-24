@@ -7,3 +7,4 @@
 6-puts2.c prints every other
 7-puts_half.c prints the second half
 8-print_array.c prints n array elements
+9-strcpy copies string
