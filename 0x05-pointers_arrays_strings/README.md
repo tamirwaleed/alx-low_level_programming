@@ -4,3 +4,4 @@
 3-puts.c prints a string
 4-print_rev.c reverses string
 5-rev_string.c reverses
+6-puts2.c prints every other
