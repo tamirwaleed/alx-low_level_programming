@@ -6,30 +6,24 @@
  */
 void print_number(int n)
 {
+int i;
+int r, j = 1, power = 1;
 if (n < 0)
 {
 n = n * -1;
 _putchar('-');
 }
-if (n >= 1000)
+for (i = n; i >= 10; j++)
 {
-_putchar((n / 1000) + '0');
-_putchar(((n / 100) % 10) + '0');
-_putchar(((n / 10) % 10) + '0');
-_putchar((n % 10) + '0');
+i = i / 10;
+power = power * 10;
 }
-else if (n >= 100)
+for (i = n; j > 0; j--)
 {
-_putchar((n / 100) + '0');
-_putchar(((n / 10) % 10) + '0');
-_putchar((n % 10) + '0');
+r = i % power;
+_putchar((i / power) + '0');
+i = r;
+power = power / 10;
 }
-else if (n >= 10)
-{
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
-}
-else
-_putchar(n + '0');
 return;
 }
