@@ -21,7 +21,7 @@ power = power * 10;
 for (i = n; j > 0; j--)
 {
 r = i % power;
-_putchar((i / power) + '0');
+_putchar((i / power) +'0');
 i = r;
 power = power / 10;
 }
