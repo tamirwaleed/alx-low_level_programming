@@ -16,5 +16,5 @@ test = 1;
 if (test == 1)
 return (s + --i);
 else
-return (s);
+return (s + 1);
 }
