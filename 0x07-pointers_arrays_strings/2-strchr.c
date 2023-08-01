@@ -14,7 +14,7 @@ if (s[i] == c)
 test = 1;
 }
 if (test == 1)
-return (s);
+return (s - 1);
 else
 return (s);
 }
