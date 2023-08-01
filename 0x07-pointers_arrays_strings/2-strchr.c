@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 /**
  * *_strchr - locates
  * @s: array
@@ -17,5 +16,5 @@ test = 1;
 if (test == 1)
 return (s + --i);
 else
-return (NULL);
+return (s);
 }
