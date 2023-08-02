@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _puts_rev_recursion - prints in reverse
- * @s: to be printed
- * Return: void
+ * _strlen_recursion - finds the length
+ * @s: to be counted
+ * Return: length
  */
 int _strlen_recursion(char *s)
 {
