@@ -7,3 +7,4 @@
 6-is_prime_number.c determines if number is prime or not
 100-is_palindrome.c determines if string is a palindrome
 101-wildcmp.c compares two strings
+Souad ma ttrsi gbdtik 
