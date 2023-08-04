@@ -12,7 +12,7 @@ for (j = 0; s[j] != '\0'; j++)
 if (s[j] >= '0' && s[j] <= '9')
 power = 10 * power;
 if (s[j] == '-')
-k = k * -1; 
+k = k * -1;
 }
 power = power / 10;
 for (j = 0; s[j] != '\0'; j++)
@@ -23,7 +23,7 @@ i = i + ((s[j] - '0') * power);
 power = power / 10;
 }
 }
-i = i * k;
+i = i *k;
 if (i != 0)
 return (i);
 else
@@ -38,6 +38,7 @@ return (0);
 int main(int argc, char *argv[])
 {
 	int result;
+
 	if (argc < 2)
 	{
 		printf("Error\n");
