@@ -22,6 +22,8 @@ if (s[j] >= '0' && s[j] <= '9')
 i = i + ((s[j] - '0') * power);
 power = power / 10;
 }
+else if (s[j] < '0' && s[j] > '9' && s[j] != '-')
+return (0);
 }
 i = i *k;
 if (i != 0)
@@ -37,23 +39,31 @@ return (0);
 */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int sum, num, i, j, k;
 
-	if (argc == 1)
+	sum = 0;
+
+	for (i = 1; i < argc; i++)
 	{
-		printf("0\n");
-		return (0);
-	}
-	for (i = 0; i < argc; i++)
-	{
-		if (_atoi(argv[i]) == 0)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			printf("Error\n");
-			return (1);
+			if (argv[i][j] > '9' || argv[i][j] < '0')
+			{
+				puts("Error");
+				return (1);
+			}
 		}
-		else
-		sum += _atoi(argv[i]);
 	}
+
+	for (k = 1; k < argc; k++)
+	{
+		num = _atoi(argv[k]);
+		if (num >= 0)
+		{
+			sum += num;
+		}
+	}
+
 	printf("%d\n", sum);
 	return (0);
 }
