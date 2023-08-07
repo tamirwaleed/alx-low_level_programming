@@ -20,10 +20,19 @@ if (s == NULL)
 return (NULL);
 for (i = 0; i < size; i++)
 {
+if (size1 != 0 && size2 != 0)
+{
 if (i < size1)
 s[i] = s1[i];
 else
 s[i] = s2[i - size1];
+}
+else if (size1 == 0 && size2 != 0)
+s[i] = s2[i];
+else if (size1 != 0 && size2 == 0)
+s[i] = s1[i];
+else if (size1 == 0 && size2 == 0)
+s[i] = '\0';
 }
 return (s);
 }
