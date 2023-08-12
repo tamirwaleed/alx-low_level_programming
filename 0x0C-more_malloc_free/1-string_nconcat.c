@@ -21,7 +21,7 @@ for (l2 = 0; s2[l2] != '\0'; l2++)
 ;
 if (n >= l2)
 n = l2;
-s = malloc(sizeof(char) * (n + l1 + 1));
+s = malloc(sizeof(char) * n + l1 + 1);
 if (s == NULL)
 return (NULL);
 for (i = 0; i < n; i++)
