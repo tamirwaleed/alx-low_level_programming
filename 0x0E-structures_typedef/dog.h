@@ -7,8 +7,8 @@
  *@age: dog age
  *@owner: dog owner
  * Description: The name speaks for itself
- */ 
-struct dog 
+ */
+struct dog
 {
 char *name;
 float age;
