@@ -20,6 +20,8 @@ if (i != n - 1)
 printf("%i", va_arg(ap, int));
 if (separator != NULL)
 printf("%s", separator);
+else
+printf("%s", va_arg(ap, char *));
 }
 else
 printf("%i", va_arg(ap, int));
