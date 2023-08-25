@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <string.h>
 /**
- * add_node - adds new node
+ * add_node_end - adds new node at tail
  * @head: old head
  * @str: new string
  * Return: pointer to head
