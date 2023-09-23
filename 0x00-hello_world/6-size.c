@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 * Description: prints size of variables
-* usin unsigned and whatever
+* using unsigned and whatever
 * Return: Always success 0
 */
 int main(void)

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn - locates
+ * _strspn - counts
  * @s: to be counted in
  * @accept: checked
  * Return: number of bytes
