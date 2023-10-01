@@ -7,25 +7,22 @@
 */
 void print_binary(unsigned long int n)
 {
-int i, j, k = 1, temp;
-temp = n;
-for (i = 0; temp > 0; i++)
-{
-temp >>= 1;
-}
-if (i > 0)
-i--;
-for (j = i; j >= 0; j--)
-{
-k <<= j;
-if (n >= (unsigned int long)k)
-{
-_putchar('0' + 1);
-n = n - k;
-}
-else
-_putchar('0' + 0);
-k = 1;
-}
+int i, count = 0;
+	unsigned long int current;
+
+	for (i = 63; i >= 0; i--)
+	{
+		current = n >> i;
+
+		if (current & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
+	}
+	if (!count)
+		_putchar('0');
 return;
 }
