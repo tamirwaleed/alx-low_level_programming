@@ -18,7 +18,7 @@ i--;
 for (j = i; j >= 0; j--)
 {
 k <<= j;
-if (n >= (long unsigned int)k)
+if (n >= (unsigned int long)k)
 {
 _putchar('0' + 1);
 n = n - k;
