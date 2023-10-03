@@ -33,5 +33,5 @@ close(filen);
 return (0);
 }
 close(filen);
-return(rd);
+return (rd);
 }
