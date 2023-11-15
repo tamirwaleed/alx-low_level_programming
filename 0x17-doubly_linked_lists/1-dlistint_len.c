@@ -1,6 +1,8 @@
 #include "lists.h"
 /**
- *
+ * dlistint_len - prints number
+ * @h: head
+ * Return: Number 
  */
 size_t dlistint_len(const dlistint_t *h)
 {
