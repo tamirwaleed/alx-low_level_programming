@@ -12,7 +12,7 @@ dlistint_t *node;
 if (!head)
 return (NULL);
 node = head;
-while (node->next)
+while (node)
 {
 if (i == index)
 return (node);
