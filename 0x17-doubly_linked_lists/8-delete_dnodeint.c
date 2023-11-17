@@ -13,7 +13,7 @@ return (-1);
 for (; index != 0 ; index--)
 {
 if (!temp)
-return (-1)
+return (-1);
 temp = temp->next;
 }
 if (temp == *head)
