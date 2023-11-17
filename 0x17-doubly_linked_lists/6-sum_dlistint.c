@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-* sum_dlistint - sums all list elements 
+* sum_dlistint - sums all list elements
 * @head: head
 * Return: Sum or 0
 */
