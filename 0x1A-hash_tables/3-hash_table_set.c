@@ -4,7 +4,7 @@
  * hash_table_set - adds an element to the table
  * @ht: pointer to the hash table
  * @key: the key
- * @value the value
+ * @value: the value
  * Return: 1 if success, 0 if failure
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -13,14 +13,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int index;
 	char *new_val;
 
-	if (!ht || !(ht->array) || !(ht->size)
+	if (!ht || !(ht->array) || !(ht->size) ||
 	    !key || !value)
 		return (0);
 	index = key_index((const unsigned char *)key, ht->size);
 	tmp = ht->array[index];
 	while (tmp)
 	{
-		if (strdcmp(tmp->key, key) == 0)
+		if (strcmp(tmp->key, key) == 0)
 		{
 			new_val = strdup(value);
 			if (!new_val)
@@ -33,18 +33,18 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	}
 	new_node = malloc(sizeof(hash_node_t));
 	if (!new_node)
-		return (NULL);
+		return (0);
 	new_node->key = strdup(key);
 	if (!new_node->key)
 	{
 		free(new_node);
-		return (NULL);
+		return (0);
 	}
 	new_node->value = strdup(value);
 	{
 		free(new_node->key);
 		free(new_node);
-		return (NULL);
+		return (0);
 	}
 	new_node->next = NULL;
 	new_node->next = ht->array[index];
